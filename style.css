@@ -1,0 +1,336 @@
+@media screen and (max-width: 830px) {
+    *{
+        margin: 0;
+        width:auto;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgb(31, 31, 54);
+        /* height: 10%; */
+        color: white;
+        font-family: 'Unna', serif, "Yu Gothic Merdium", "Yu Gothic", "ヒラギノ角ゴ Pro W3", メイリオ, sans-serif;
+        font-weight: lighter;
+        height: 10%;
+    }
+    header img{
+        width: 8%;
+        margin: 3%;
+    }
+    .beach{
+        background-image: url(./img/island.jpg);
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .topic{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10% 1%;
+    }
+    .topic span{
+        margin-top: 10%;
+    }
+    .self_intro{
+        background-color: rgb(245, 245, 240);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: sans-serif;
+        padding-bottom: 8%;
+    }
+    .self_intro h2{
+        margin-bottom: 8%;
+        font-size: 30px;
+        font-family: 'Unna', serif;
+        ;
+    }
+    .self_intro img{
+        width: 60%;
+        border-radius: 50%;
+        margin: 8%;
+    }
+    .info{
+        display: flex;
+        flex-direction: row;
+        font-size: 18px;
+
+    }
+    .info ul{
+        list-style: none;
+        /* background-color: blue; */
+        font-family: "Yu Gothic Merdium", "Yu Gothic", "ヒラギノ角ゴ Pro W3", メイリオ, sans-serif;
+    }
+    .info_right h3{
+        font-weight: lighter;
+    }
+    .recommend{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 15% 5%;
+        /* background-color: yellow; */
+    }
+    .recommend img{
+        width: 100%;
+        margin: 5% 0 3% 0;
+    }
+    .recommend h2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .recommend h3{
+        /* background-color: turquoise; */
+        margin-bottom: 5%;
+    }
+    
+    .see_more_btn{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        height: 60px;
+    }
+    .see_more_btn button{
+        width: 25%;
+        height: 70%;
+        background-color: rgb(26, 26, 61);
+        color: white;
+        border-radius: 8%;
+        font-size: large;
+        text-align: center;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 0 5%;
+        margin-bottom: 10%;
+        height: 300px;
+        /* background-color: blue; */
+    }
+    .contact h2{
+       margin-top:5%;
+    }
+    .contact_btn button{
+        height: 80%;
+        background-color: rgb(26, 26, 61);
+        border-radius: 5%;
+        color: white;
+        width: 50%;
+        font-size: 15px;
+
+    }
+    .contact span{
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    .contact_btn{
+        /* background-color: blueviolet; */
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        height: 60px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+       
+    }
+ }
+
+    *{
+        margin: 0;
+        width:auto;
+        font-family: "Yu Gothic Merdium", "Yu Gothic", "ヒラギノ角ゴ Pro W3", メイリオ, sans-serif;
+    }
+    header{
+        background-color: rgb(31, 31, 54);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: white;
+        padding: 1% 3%;
+        font-family: 'Unna', serif, "Yu Gothic Merdium", "Yu Gothic", "ヒラギノ角ゴ Pro W3", メイリオ, sans-serif;
+        font-size: 100%;
+    }
+    header img{
+        width: 3%;
+        margin-right: 2%;
+    }
+    .beach{
+        background-image: url("./img/island.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 400px;
+    }
+    .topic{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+        /* background-color: lawngreen; */
+    }
+    .topic h2{
+        margin-bottom: 50px;
+    }
+    .self_intro{
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 300px;
+        padding: 3% 15%;
+        background-color: rgb(245, 245, 240);
+    }
+    
+    .self_intro img{
+        width:30%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .info{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* background-color: lawngreen; */
+        height: 70%;
+        font-size: 20px;
+        width: 50%;
+    }
+    .info ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        /* background-color: magenta; */
+        height: 100%;
+        width: 100%;
+        padding: 0;
+    }
+    .info li{
+        margin-bottom: 5%;
+    }
+    .info_left, .info_right{
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        justify-content: center;
+    }
+    .info_right h3{
+        font-weight: lighter;
+    }
+    .recommend{
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        height: 500px;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5%;
+        /* background-color: mediumblue; */
+    }
+    .recommend h2{
+        /* background-color: maroon; */
+        width: 100%;
+    }
+    
+    .ayala, .oslob, .market{
+       /* background-color: mediumaquamarine; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: start;
+        width: 30%;
+        height: 70%;
+    }
+    .recommend img{
+        width: 100%;
+    }
+   /* .see_more_btn */
+    #ayala_btn{ 
+        position: absolute;
+        margin-top: 30%;
+        padding-right: 50%;
+    }
+    #ayala_btn button{
+        background-color: rgb(26, 26, 61);
+        color: white;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+    #oslob_btn{
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 5%;
+    }
+    #oslob_btn button{
+        background-color: rgb(26, 26, 61);
+        color: white;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+    #market_btn{
+        position: absolute;
+        margin-left: 35%;
+        margin-top: 30%;
+    }
+    #market_btn button{
+       background-color: rgb(26, 26, 61);
+       color: white;
+       font-size: 20px;
+       border-radius: 5px;
+   }
+    .contact{
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact h2{
+        margin-bottom: 5%;
+    }
+    .contact span{
+        margin: 4%;
+    }
+    .contact_btn{
+        /* background-color: yellow; */
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10%;
+    }
+    .contact_btn button{
+        background-color:  rgb(26, 26, 61);
+        color: white;
+        width: 30%;
+        font-size: 20px;
+        padding: 2% 0;
+        border-radius: 5px;
+    }
+    footer{
+        background-color: rgb(0, 0, 0);
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 3%;
+    }
