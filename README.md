@@ -1,4 +1,4 @@
-# Intro_cebu# Intro_cebu
+# Intro_cebu
 Reproduction Web Page (WEBページ模写)
 
 https://heuristic-shockley-4fb208.netlify.app/ を参考 <br>
